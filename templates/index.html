@@ -8,11 +8,13 @@
     <div class="container">
       <h1 class="text-center my-4">Try Generate a Quantum Circuit Test Case!</h1>
       <form method="post" class="text-center">
+        <label for="number" class="me-2">Qubits: </label>
         <select name="number" class="form-select" style="width: 200px; display: inline;">
           {% for number in range(2, 8) %}
             <option value="{{ number }}">{{number}}</option>
           {% endfor %}
         </select>
+        <label for="number" class="me-2">Generator: </label>
         <select name="method" class="form-select" style="width: 200px; display: inline;">
           <option value="UCNOT" {% if selected_method == 'UCNOT' %}selected{% endif %}>UCNOT</option>
           <option value="IQFT" {% if selected_method == 'IQFT' %}selected{% endif %}>IQFT</option>
