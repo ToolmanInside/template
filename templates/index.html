@@ -1,17 +1,22 @@
 <!doctype html>
 <html>
   <head>
-    <title>下拉选择框示例</title>
+    <title>Quantum Program Test Case Generator</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
     <div class="container">
-      <h1 class="text-center my-4">下拉选择框示例</h1>
+      <h1 class="text-center my-4">Try Generate a Quantum Circuit Test Case!</h1>
       <form method="post" class="text-center">
         <select name="number" class="form-select" style="width: 200px; display: inline;">
-          {% for number in range(1, 11) %}
-            <option value="{{ number }}">{{ number }}</option>
+          {% for number in range(2, 8) %}
+            <option value="{{ number }}">{{number}}</option>
           {% endfor %}
+        </select>
+        <select name="method" class="form-select" style="width: 200px; display: inline;">
+          <option value="UCNOT" {% if selected_method == 'UCNOT' %}selected{% endif %}>UCNOT</option>
+          <option value="IQFT" {% if selected_method == 'IQFT' %}selected{% endif %}>IQFT</option>
+          <option value="Random" {% if selected_method == 'Random' %}selected{% endif %}>Random</option>
         </select>
         <input type="submit" value="提交" class="btn btn-primary">
       </form>

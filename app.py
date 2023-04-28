@@ -1,13 +1,19 @@
 from flask import Flask, request, render_template
 import os
 from line import Circuit
-from mutator import RandomMutator
+from logzero import logger
+from mutator import RandomMutator, UCNOTMutator, QFTMutator
 
-def func(number):
-    return generate(number)
+def func(number, method):
+    if method == "UCNOT":
+        result = generate(number, UCNOTMutator())
+    elif method == "IQFT":
+        result = generate(number, QFTMutator())
+    elif method == "Random":
+        result = generate(number, RandomMutator())
+    return result
 
-def generate(num_qubits):
-    mutator = RandomMutator()
+def generate(num_qubits, mutator):
     circuit = Circuit(num_qubits)
     new_circuit = mutator.generate_circuit(circuit)
     return new_circuit.code.qasm()
@@ -18,7 +24,8 @@ app = Flask(__name__)
 def index():
     if request.method == "POST":
         selected_number = int(request.form["number"])
-        processed_number = func(selected_number)
+        method = request.form['method']
+        processed_number = func(selected_number, method)
         return render_template("return.html", selected_number=selected_number, processed_number=processed_number)
 
     return render_template("index.html")
