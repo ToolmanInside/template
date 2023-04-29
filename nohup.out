@@ -67,3 +67,51 @@ ModuleNotFoundError: No module named 'flask'
 220.150.244.45 - - [28/Apr/2023 15:03:39] "POST / HTTP/1.1" 200 -
 220.150.244.45 - - [28/Apr/2023 15:03:41] "POST / HTTP/1.1" 200 -
 220.150.244.45 - - [28/Apr/2023 15:03:44] "POST / HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:30001
+ * Running on http://172.31.11.240:30001
+[33mPress CTRL+C to quit[0m
+220.150.244.45 - - [28/Apr/2023 15:06:13] "POST / HTTP/1.1" 200 -
+220.150.244.45 - - [28/Apr/2023 15:06:16] "POST / HTTP/1.1" 200 -
+220.150.244.45 - - [28/Apr/2023 15:06:21] "POST / HTTP/1.1" 200 -
+220.150.244.45 - - [28/Apr/2023 15:08:36] "GET / HTTP/1.1" 200 -
+220.150.244.45 - - [28/Apr/2023 15:08:39] "POST / HTTP/1.1" 200 -
+220.150.244.45 - - [28/Apr/2023 15:08:54] "POST / HTTP/1.1" 200 -
+220.150.244.45 - - [28/Apr/2023 15:09:01] "POST / HTTP/1.1" 200 -
+162.243.143.24 - - [28/Apr/2023 16:49:27] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03È²8ãT\x15\x8cþh')
+162.243.143.24 - - [28/Apr/2023 16:49:27] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03È²8ãT\x15\x8cþh[0m" HTTPStatus.BAD_REQUEST -
+107.170.252.14 - - [28/Apr/2023 20:25:59] code 400, message Bad request syntax ('MGLNDD_13.210.72.149_30001')
+107.170.252.14 - - [28/Apr/2023 20:25:59] "[35m[1mMGLNDD_13.210.72.149_30001[0m" HTTPStatus.BAD_REQUEST -
+220.150.244.45 - - [29/Apr/2023 00:33:15] "GET / HTTP/1.1" 200 -
+220.150.244.45 - - [29/Apr/2023 00:33:22] "POST / HTTP/1.1" 200 -
+220.150.244.45 - - [29/Apr/2023 01:32:48] "GET / HTTP/1.1" 200 -
+220.150.244.45 - - [29/Apr/2023 01:32:50] "POST / HTTP/1.1" 200 -
+220.150.244.45 - - [29/Apr/2023 01:32:52] "POST / HTTP/1.1" 200 -
+220.150.244.45 - - [29/Apr/2023 01:33:33] "POST / HTTP/1.1" 200 -
+220.150.244.45 - - [29/Apr/2023 01:33:38] "POST / HTTP/1.1" 200 -
+220.150.244.45 - - [29/Apr/2023 01:33:42] "POST / HTTP/1.1" 200 -
+220.150.244.45 - - [29/Apr/2023 01:33:52] "POST / HTTP/1.1" 200 -
+220.150.244.45 - - [29/Apr/2023 01:33:55] "POST / HTTP/1.1" 200 -
+220.150.244.45 - - [29/Apr/2023 01:34:09] "POST / HTTP/1.1" 200 -
+220.150.244.45 - - [29/Apr/2023 01:35:10] "POST / HTTP/1.1" 200 -
+220.150.244.45 - - [29/Apr/2023 01:35:28] "POST / HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:30001
+ * Running on http://172.31.11.240:30001
+[33mPress CTRL+C to quit[0m
+220.150.244.45 - - [29/Apr/2023 01:36:46] "POST / HTTP/1.1" 200 -
+220.150.244.45 - - [29/Apr/2023 01:36:48] "POST / HTTP/1.1" 200 -
+220.150.244.45 - - [29/Apr/2023 01:36:53] "POST / HTTP/1.1" 200 -
+220.150.244.45 - - [29/Apr/2023 01:36:55] "POST / HTTP/1.1" 200 -
+220.150.244.45 - - [29/Apr/2023 01:37:03] "POST / HTTP/1.1" 200 -
+162.216.150.36 - - [29/Apr/2023 03:10:05] "GET / HTTP/1.1" 200 -
+133.5.18.170 - - [29/Apr/2023 03:10:54] "GET / HTTP/1.1" 200 -
+133.5.18.170 - - [29/Apr/2023 03:10:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+133.5.18.170 - - [29/Apr/2023 03:11:00] "POST / HTTP/1.1" 200 -
+133.5.18.170 - - [29/Apr/2023 03:11:02] "POST / HTTP/1.1" 200 -

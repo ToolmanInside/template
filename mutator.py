@@ -102,7 +102,7 @@ class RandomMutator(object):
             num_gate += 1
             # a threshold to stop adding gate
             # if random.random() > 0.9:
-            if num_gate > int(circuit.num_qubits):
+            if num_gate > int(circuit.num_qubits * 1.5):
             # stop when total amout of gates larger than 10
                 stop_add_gate = True
         return new_circuit
