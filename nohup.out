@@ -115,3 +115,58 @@ ModuleNotFoundError: No module named 'flask'
 133.5.18.170 - - [29/Apr/2023 03:10:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 133.5.18.170 - - [29/Apr/2023 03:11:00] "POST / HTTP/1.1" 200 -
 133.5.18.170 - - [29/Apr/2023 03:11:02] "POST / HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:30001
+ * Running on http://172.17.0.3:30001
+Press CTRL+C to quit
+127.0.0.1 - - [01/May/2023 14:35:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 14:36:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 14:36:07] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 15:23:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 15:23:16] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [01/May/2023 15:23:20] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 15:23:23] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 15:23:26] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 15:23:31] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 15:23:35] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 15:23:38] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 15:23:54] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 15:23:57] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 15:24:00] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 15:24:02] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 15:24:05] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 15:24:08] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 16:01:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 16:01:48] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [01/May/2023 16:01:49] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 16:01:50] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 16:01:53] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 16:01:53] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 16:01:56] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 16:01:58] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 16:02:02] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 16:02:05] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 17:41:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 17:41:31] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 17:41:33] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 17:41:38] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [01/May/2023 17:41:43] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2023 09:38:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2023 12:19:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2023 12:19:28] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2023 12:19:31] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2023 12:19:33] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2023 12:23:34] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2023 12:23:36] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2023 12:23:36] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [02/May/2023 12:23:38] "POST / HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:30001
+ * Running on http://172.17.0.3:30001
+Press CTRL+C to quit

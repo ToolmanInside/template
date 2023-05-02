@@ -26,7 +26,7 @@ def index():
         selected_number = int(request.form["number"])
         method = request.form['method']
         processed_number = func(selected_number, method)
-        return render_template("return.html", selected_number=selected_number, processed_number=processed_number)
+        return render_template("index.html", selected_number=selected_number, processed_number=processed_number)
 
     return render_template("index.html")
 
